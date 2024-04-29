@@ -4,7 +4,7 @@ import { ArrowDownIcon, Logo } from '../../assets';
 function Footer() {
     return (
         <footer className='flex flex-col w-full'>
-            <div className='bg-[#525AA0] border w-[1300px] mx-auto h-[481px] flex flex-col p-6 items-center justify-center space-y-6'>
+            <div className='bg-[#525AA0] border w-[1300px] mx-auto h-[481px] flex flex-col p-6 items-center justify-center space-y-6' style={{ transform: 'skewY(-3deg)' }}>
                 <h3 className='text-3xl md:text-6xl w-full md:w-[650px] text-center text-white'>Need a Job done, and done well? Get Started</h3>
                 <img src={ArrowDownIcon} alt="arrowDown" className='w-16 h-16' />
             </div>

@@ -16,7 +16,7 @@ const ItemContainer = ({ title, types, boxTitle, skills, arrowType }) => (
         </div>
 
       </div>
-      <div className="flex flex-col border border-black rounded-lg p-4 w-[730px] mt-10">
+      <div className="flex flex-col border shadow-md border-white bg-white rounded-lg p-4 w-[730px] mt-10">
         <h3 className="mb-4 font-bold">{boxTitle}</h3>
         <div className="flex items-center">
           {arrowType === 'left' && <Arrow icon={ArrowLeft} />}
